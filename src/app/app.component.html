@@ -1,0 +1,13 @@
+<h1>Angular 8 HttpClient for Sending Http Request Example - ItSolutionStuff.com</h1>
+  
+<input 
+    (keyup.enter)="createPost(title)" #title
+    type="text" class="form-control">
+  
+<ul class="list-group">
+  <li 
+      *ngFor="let post of posts"
+      class="list-group-item">
+      {{ post.title }}
+  </li>
+</ul>
